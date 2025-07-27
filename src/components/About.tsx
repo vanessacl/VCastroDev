@@ -68,22 +68,14 @@ const About: React.FC = () => {
               initial={{ opacity: 0, x: 50 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-            >
-              <motion.h3 
-                className="text-2xl font-semibold mb-6 text-[#000000]"
-                initial={{ opacity: 0, y: 20 }}
-                animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
-              >
-                Hi, I'm Vanessa Castro
-              </motion.h3>
+            >              
               <motion.p 
                 className="text-[#000000] mb-6 leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
               >
-                With over 4 years of experience as a Front-End Developer, I specialize in creating intuitive and engaging web experiences. My expertise lies in modern JavaScript frameworks and UI design principles, allowing me to bridge the gap between design and functionality effectively.
+                I'm a dedicated Front-End Developer with over four years of hands-on experience building intuitive apps for global brands at GMR Marketing. I thrive on creating ADA-compliant web experiences that boost accessibility scores by up to 15%, drawing on my expertise in modern JavaScript frameworks like React.js and core UI/UX design principles. This allows me to bridge the gap between creative vision and technical execution, turning complex ideas into polished, functional realities—while leveraging my bilingual skills in English and Spanish to collaborate effectively on international projects.
               </motion.p>
               <motion.p 
                 className="text-[#000000] mb-8 leading-relaxed"
@@ -91,7 +83,7 @@ const About: React.FC = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
-                I'm passionate about crafting clean, maintainable code and creating responsive designs that work seamlessly across all devices. My approach combines technical expertise with creative problem-solving to deliver exceptional user experiences.
+                What fuels my work is a commitment to writing clean, scalable code and developing responsive interfaces that shine across all devices. With a growth mindset, I'm actively refreshing JavaScript for enterprise roles and exploring AI-integrated UIs in 2025 trends. By fusing technical expertise with innovative problem-solving, I deliver user-focused solutions that exceed expectations and drive meaningful digital impact.
               </motion.p>
               
               <motion.div 
@@ -101,7 +93,7 @@ const About: React.FC = () => {
                 transition={{ duration: 0.6, delay: 0.9 }}
               >
                 <motion.a 
-                  href="/resume.pdf" 
+                  href="/VanessaCastro_FrontEndDev_Resume.pdf" 
                   download
                   className="flex items-center gap-2 bg-[#000000] text-[#ffffff] py-3 px-6 rounded-full hover:bg-[#e0aaff] hover:text-[#000000] transition-colors"
                   whileHover={{ 

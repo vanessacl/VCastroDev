@@ -16,18 +16,16 @@ export const skillsData: SkillCategory[] = [
       { name: 'jQuery' },
       { name: 'TypeScript' },
       { name: 'HTML5' },
-      { name: 'CSS3' },
-      { name: 'REST APIs' }
+      { name: 'CSS3' }      
     ],
   },
   {
     category: 'Styling & Design',
     skills: [
       { name: 'Sass' },
-      { name: 'Tailwind CSS' },
       { name: 'Bootstrap' },
-      { name: 'Styled Components' },
-      { name: 'CSS Modules' }
+      { name: 'Tailwind CSS' },      
+      { name: 'Styled Components' }
     ],
   },
   {
@@ -35,8 +33,7 @@ export const skillsData: SkillCategory[] = [
     skills: [
       { name: 'Git' },
       { name: 'Web Accessibility' },
-      { name: 'Cross-Browser' },
-      { name: 'REST APIs' }
+      { name: 'Cross-Browser' }     
     ],
   },
 ];

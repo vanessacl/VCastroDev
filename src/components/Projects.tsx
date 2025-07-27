@@ -115,7 +115,7 @@ const Projects: React.FC = () => {
             >
               <motion.button
                 onClick={() => setSelectedProject(null)}
-                className="absolute top-4 right-4 p-2 rounded-full bg-[#000000]/10 hover:bg-[#e0aaff]/30 transition-colors"
+                className="absolute top-4 right-4 p-2 rounded-full bg-[#30004d]/30 hover:bg-[#30004d]/80 transition-colors"
                 whileHover={{ 
                   scale: 1.1,
                   rotate: 180,

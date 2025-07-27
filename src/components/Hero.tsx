@@ -86,22 +86,30 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <motion.span 
+            className="block bg-clip-text text-transparent bg-gradient-to-r from-[#ffffff] via-[#f0eff4] to-[#ffffff] animate-gradient bg-300% mb-2"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            Vanessa Castro
+          </motion.span>          
+        </motion.h1>
+        <motion.h2 
+          ref={titleRef}
+          className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >          
+          <motion.span 
             className="block bg-clip-text text-transparent bg-gradient-to-r from-[#ffffff] via-[#e0aaff] to-[#ffffff] animate-gradient bg-300% mb-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             Front-End Developer
-          </motion.span>
-          <motion.span 
-            className="bg-clip-text text-transparent bg-gradient-to-r from-[#ffffff] via-[#e0aaff] to-[#ffffff] animate-gradient bg-300% inline-block"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            & UI/UX Enthusiast
-          </motion.span>
-        </motion.h1>
+          </motion.span>          
+        </motion.h2>
         <motion.p 
           ref={subtitleRef}
           className="text-xl md:text-2xl max-w-2xl mx-auto mb-8 text-[#f0eff4]"
